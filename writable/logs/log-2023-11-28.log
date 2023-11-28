@@ -1,0 +1,36 @@
+CRITICAL - 2023-11-28 06:24:33 --> Trying to access array offset on null
+in APPPATH/Views/moviepage.php on line 30.
+ 1 APPPATH/Views/moviepage.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Applications/XAMPP/xamppfiles/htdocs/PBKK-Quiz-2/app/Views/moviepage.php', 30)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/PBKK-Quiz-2/app/Views/moviepage.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('moviepage', [], true)
+ 5 APPPATH/Controllers/Cinema.php(21): view('moviepage', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Cinema->singleUser('11')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinema))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/PBKK-Quiz-2/public/index.php')
+CRITICAL - 2023-11-28 07:34:08 --> Undefined variable $selectedfilm
+in APPPATH/Views/orderpage.php on line 32.
+ 1 APPPATH/Views/orderpage.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedfilm', '/Applications/XAMPP/xamppfiles/htdocs/PBKK-Quiz-2/app/Views/orderpage.php', 32)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/PBKK-Quiz-2/app/Views/orderpage.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('orderpage', [], true)
+ 5 APPPATH/Controllers/Cinema.php(15): view('orderpage')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Cinema->order()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinema))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/PBKK-Quiz-2/public/index.php')
+CRITICAL - 2023-11-28 07:34:11 --> Undefined variable $selectedfilm
+in APPPATH/Views/orderpage.php on line 32.
+ 1 APPPATH/Views/orderpage.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedfilm', '/Applications/XAMPP/xamppfiles/htdocs/PBKK-Quiz-2/app/Views/orderpage.php', 32)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/PBKK-Quiz-2/app/Views/orderpage.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('orderpage', [], true)
+ 5 APPPATH/Controllers/Cinema.php(15): view('orderpage')
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Cinema->order()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinema))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/PBKK-Quiz-2/public/index.php')

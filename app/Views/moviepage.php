@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EaseTheater</title>
+    <!-- STYLING -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Poppins:ital,wght@0,400;1,500&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+        <div class="nav-item">
+        <a class="nav-logo" href="/"><h1>Cinemax</h1></a>
+          
+        </div>
+        <div class="nav-item">
+          <a class="nav-menu" href="/">Home</a>
+          <a class="nav-menu" href="/orderpage">Book Ticket</a>
+        </div>
+    </div>
+    <div class="moviedetail">
+      <div class="img-poster">
+        <?php $imagePath = '/images/poster/' . $selectedfilm['poster']; // Adjust the path accordingly?>
+        <img src="<?php echo $imagePath; ?>" alt="poster" />
+      </div>
+      <div class="detail-film">
+        <h2><?php echo $selectedfilm['namafilm']; ?></h2>
+        <div class="badges">
+          <p class="genre"><?php echo $selectedfilm['genre']; ?></p>
+          <p class="durasi"><?php echo $selectedfilm['durasi']; ?></p>
+        </div>
+        <p class="desc"><?php echo $selectedfilm['deskripsi']; ?></p>
+        <a class="beliTiket" href="/orderpage">Book Ticket</a>
+      </div>
+    </div>
+    <div class="footer">
+        <div>
+          <h1 style="margin: 0">Cinemax</h1>
+        </div>
+        <div>
+          <h3 style="margin: 0">Hanafi Satriyo Utomo Setiawan</h3>
+          <p style="margin: 0">5025211195</p>
+        </div>
+        <div>
+          <h3 style="margin: 0">Rafi Aliefian Putra Ramadhani</h3>
+          <p style="margin: 0">5025211234</p>
+        </div>
+        <div >          
+          <h3 style="margin: 0">Beauty Valen Fajri</h3>
+          <p style="margin: 0">5025211227</p></div>
+    </div>
+  </body>
+</html>
